@@ -26,4 +26,4 @@ export const instagram = "";
 export const url = "";
 export const mail = "";
 
-export const GOOGLE_API_KEY = "AIzaSyBk9HYYrfPI-3YKfFoLjsOiKBJjhTqfN2g";
+export const GOOGLE_API_KEY = "";

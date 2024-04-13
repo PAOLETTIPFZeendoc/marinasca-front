@@ -14,6 +14,7 @@ import {
   LinkContainer,
   ListContainer,
 } from "../CategorySelector/category-selector.style";
+import { NavLink } from "react-router-dom";
 
 const Login = lazy(() => import("../../pages/Login/Login"));
 const ProductsPage = lazy(() =>
@@ -24,6 +25,8 @@ const App = () => {
   const [loading, setLoading] = useState(false);
   const [locationSelector, setLocationSelector] = useState("");
   const possibleLocation = ["Restaurant", "Bar"];
+
+  console.log(locationSelector);
 
   return (
     <div
@@ -36,8 +39,11 @@ const App = () => {
       <CategoriesContainer>
         <ListContainer>
           {possibleLocation.map((loc) => (
-            <LinkContainer>
-              <CategoryItem onClick={() => setLocationSelector(loc)}>
+            <LinkContainer
+              key={loc}
+              onClick={() => setLocationSelector(loc)}
+            >
+              <CategoryItem>
                 <CategoryTitle>{loc}</CategoryTitle>
               </CategoryItem>
             </LinkContainer>
