@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/marinasca-front/static/css/main.bff0b625.css",
-    "main.js": "/marinasca-front/static/js/main.90552888.js",
-    "static/js/59.fd1fc2b5.chunk.js": "/marinasca-front/static/js/59.fd1fc2b5.chunk.js",
-    "static/js/312.fbd71d19.chunk.js": "/marinasca-front/static/js/312.fbd71d19.chunk.js",
+    "main.js": "/marinasca-front/static/js/main.1bdd2f0e.js",
+    "static/js/59.5129a8ec.chunk.js": "/marinasca-front/static/js/59.5129a8ec.chunk.js",
+    "static/js/312.314b456e.chunk.js": "/marinasca-front/static/js/312.314b456e.chunk.js",
     "static/media/crayonhand.ttf": "/marinasca-front/static/media/crayonhand.f8408bf787fcd295193a.ttf",
     "static/media/Chalkabout Italic.otf": "/marinasca-front/static/media/Chalkabout Italic.160c39dd6de0cb22f994.otf",
     "static/media/Chalkabout.otf": "/marinasca-front/static/media/Chalkabout.60e817c943e1954a05ba.otf",
@@ -11,12 +11,12 @@
     "static/media/logoMarinasca.png": "/marinasca-front/static/media/logoMarinasca.8f44cfbbdeee1edfbb2a.png",
     "index.html": "/marinasca-front/index.html",
     "main.bff0b625.css.map": "/marinasca-front/static/css/main.bff0b625.css.map",
-    "main.90552888.js.map": "/marinasca-front/static/js/main.90552888.js.map",
-    "59.fd1fc2b5.chunk.js.map": "/marinasca-front/static/js/59.fd1fc2b5.chunk.js.map",
-    "312.fbd71d19.chunk.js.map": "/marinasca-front/static/js/312.fbd71d19.chunk.js.map"
+    "main.1bdd2f0e.js.map": "/marinasca-front/static/js/main.1bdd2f0e.js.map",
+    "59.5129a8ec.chunk.js.map": "/marinasca-front/static/js/59.5129a8ec.chunk.js.map",
+    "312.314b456e.chunk.js.map": "/marinasca-front/static/js/312.314b456e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bff0b625.css",
-    "static/js/main.90552888.js"
+    "static/js/main.1bdd2f0e.js"
   ]
 }
