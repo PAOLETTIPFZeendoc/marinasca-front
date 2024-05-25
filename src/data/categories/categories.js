@@ -21,17 +21,17 @@ export const categories = [
     origin: "restaurant",
   },
   {
-    name: "Nos Viandes",
-    title: "Viandes",
-    link: "/products/viandes",
-    slug: "viandes",
+    name: "Burgers",
+    title: "Nos burgers",
+    link: "/products/burgers",
+    slug: "burgers",
     origin: "restaurant",
   },
   {
-    name: "Nos Poissons",
-    title: "Poissons",
-    link: "/products/poissons",
-    slug: "poissons",
+    name: "Nos Plats",
+    title: "Nos Plats",
+    link: "/products/plats",
+    slug: "plats",
     origin: "restaurant",
   },
   {
@@ -47,6 +47,16 @@ export const categories = [
     link: "/products/pizza",
     slug: "pizza",
     origin: "restaurant|bar",
+    subCategory: [
+      {
+        name: "Base Tomate",
+        slug: "tomate",
+      },
+      {
+        name: "Base Crème Fraîche",
+        slug: "cr-fraiche",
+      },
+    ],
   },
   {
     name: "Menu-Enfant",
@@ -63,11 +73,54 @@ export const categories = [
     origin: "restaurant",
   },
   {
-    name: "Nos Tapas",
-    title: "Tapas",
-    link: "/products/tapas",
-    slug: "tapas",
+    name: "Nos Glaces",
+    title: "Nos Glaces",
+    link: "/products/glaces",
+    slug: "glaces",
+    origin: "restaurant|bar",
+    subCategory: [
+      {
+        name: "Coupes",
+        slug: "glaces-coupes",
+      },
+      {
+        name: "Traditionelles",
+        slug: "glaces-traditionelles",
+      },
+      {
+        name: "Alcoolisées",
+        slug: "glaces-alcoolisees",
+      },
+      {
+        name: "Créations",
+        slug: "glaces-creations",
+      },
+      {
+        name: "Milk-Shakes",
+        slug: "glaces-milk-shakes",
+      },
+    ],
+  },
+  {
+    name: "Nos Snacks",
+    title: "Snacks",
+    link: "/products/snacks",
+    slug: "snacks",
     origin: "bar",
+  },
+  {
+    name: "Nos Vins",
+    title: "Nos Vins",
+    link: "/products/cave",
+    slug: "cave",
+    origin: "restaurant|bar",
+  },
+  {
+    name: "Nos Champagnes",
+    title: "Nos Champagnes",
+    link: "/products/champagne",
+    slug: "champagne",
+    origin: "restaurant|bar",
   },
   {
     name: "Softs et boissons chaudes",
@@ -77,7 +130,7 @@ export const categories = [
     origin: "bar",
     subCategory: [
       {
-        name: "boissons chaudes",
+        name: "Boissons Chaudes",
         slug: "boissons-chaudes",
       },
       {
@@ -94,12 +147,20 @@ export const categories = [
     origin: "bar",
     subCategory: [
       {
+        name: "Apéritifs",
+        slug: "aperitifs",
+      },
+      {
         name: "Biéres",
         slug: "bieres",
       },
       {
-        name: "Spiritueux",
-        slug: "spiritueux",
+        name: "Whiskies",
+        slug: "whiskies",
+      },
+      {
+        name: "Liqueurs et Digestifs",
+        slug: "digestifs",
       },
     ],
   },
@@ -117,10 +178,6 @@ export const categories = [
       {
         name: "Sans Alcool",
         slug: "cocktails-sans-alcool",
-      },
-      {
-        name: "Signature LN Mattei",
-        slug: "cocktails-signature-ln-mattei",
       },
     ],
   },
